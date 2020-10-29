@@ -500,7 +500,7 @@ int main(int argc, char *argv[])
   // process command-line argument
   if(argc != 4)
     {
-      printf("No experiment specified; please specify 0-11, population size, and offspring number\n");
+      printf("No experiment specified; please specify 0-14, population size, and offspring number\n");
       return 0;
     }
   else

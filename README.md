@@ -5,22 +5,22 @@ All numerical experiments are performed by **odna-sim.c**, which takes different
 [experiment] [expt param] [fitness penalty] [population size] [offspring number] [oDNAs per cell] [off-target mutation frequency] .
 
 * [experiment]:
- * 0 = adaptation proportion
- * 1 = adaptation time
- * 2 = dynamic environments
+    * 0 = adaptation proportion
+    * 1 = adaptation time
+    * 2 = dynamic environments
 * [expt param]:
- * (for adaptation experiments):
- * 0 = fine-grained steps
- * 1 = coarse-grained steps through parameter space
- * (for dynamic environments):
- * 0 = fine-grained steps
- * 1 = coarse-grained steps
- * 2, 3, 4 = fine-grained steps w/o mu evolution
+    * (for adaptation experiments):
+    * 0 = fine-grained steps
+    * 1 = coarse-grained steps through parameter space
+    * (for dynamic environments):
+    * 0 = fine-grained steps
+    * 1 = coarse-grained steps
+    * 2, 3, 4 = fine-grained steps w/o mu evolution
 * [fitness penalty]:
- * 0 = -eps, 0 < h < 1
- * 1 = 4*eps*(h-0.5)^2 - eps
- * 2 = -eps, h > 0.5
- * 3 = -eps, h > 0.1
+    * 0 = -eps, 0 < h < 1
+    * 1 = 4 eps (h-0.5)^2 - eps
+    * 2 = -eps, h > 0.5
+    * 3 = -eps, h > 0.1
 
 For example (fast and simple):
 

@@ -1,4 +1,7 @@
+# compile workhorse code
 gcc -o3 odna-sim.c -lm -o odna-sim.ce
+
+# the commands below run different experiments in parallel. if multiple cores are unavailable, you may prefer to serialise this -- just remove the "&" characters from each command
 
 # arguments are
 # [experiment] [expt param] [fitness penalty] [population size] [offspring number] [oDNAs per cell] [off-target mutation frequency]

@@ -12,6 +12,7 @@ set cbrange [0:1]
 
 set palette defined (0 "#FFAAAA", 0.5 "#FFFFFF", 1 "#8888FF")
 
+set xtics 0.4
 set ytics 0.01
 set xrange [0:1.5]
 

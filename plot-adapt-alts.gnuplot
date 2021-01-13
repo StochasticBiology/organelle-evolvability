@@ -1,6 +1,6 @@
 reset
 set multiplot
-set size 0.45,0.33
+set size 0.4,0.33
 
 #svg 800,800
 set pm3d map corners2color c1
@@ -9,7 +9,7 @@ set ylabel "Mutation rate"
 
 set ytics 0.005
 
-lmargin = 0.03
+lmargin = 0.07
 
 set palette defined (0 "#FF8888", 0.5 "#FFFFFF", 1 "#8888FF")
 

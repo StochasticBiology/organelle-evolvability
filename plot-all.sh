@@ -24,7 +24,7 @@ gnuplot -e 'set term svg size 800,600; set output "plot-single-dynamics-evolve-p
 gnuplot -e 'set term svg size 1024,480; set output "plot-adapt-demography.svg"; load "plot-adapt-demography.gnuplot"; exit;'
 
 # fig s2
-gnuplot -e 'set term svg size 1024,800; set output "plot-adapt-alpha.svg"; load "plot-adapt-alpha.gnuplot"; exit;'
+gnuplot -e 'set term svg size 1024,600; set output "plot-adapt-alpha.svg"; load "plot-adapt-alpha.gnuplot"; exit;'
 
 # fig s3
 gnuplot -e 'set term svg size 800,400; set output "plot-adapt-n.svg"; load "plot-adapt-n.gnuplot"; exit;'

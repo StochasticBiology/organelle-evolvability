@@ -11,7 +11,7 @@ set ylabel "Mutation rate μ"
 set cbrange [-1:2000]
 
 sigma = 0.02
-lmargin = 0.03
+lmargin = 0.035
 
 #########
 

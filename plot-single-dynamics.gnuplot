@@ -9,7 +9,7 @@ set cbrange [0:1]
 
 yscale = 20.
 
-set xtics 250
+set xtics 100
 set ytics 0.5
 
 set xrange [0:200]

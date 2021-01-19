@@ -147,7 +147,8 @@ int Simulate(Cell *C, Cell *outC, double *hist, int maxt, int env, int penaltyty
 		  double tmph, tmphd;
 		  
 		  hmean = (-mu + h0*(-1+2*mu+mud))/(mud-1);
-		  hvar = ( 2*(1-2*h0)*(1-2*h0)*mu*mu*mu + (1-2*h0)*(1-2*h0)*mu*mu*(mud-2) + (-1 + 2*(-1+h0)*h0)*mu*(-1+mud)*(-1+mud) + (-1+h0)*h0*(-1+mud)*(-1+mud)*mud ) / ( (-1+hd)*n*(-1+mud)*(-1+mud)*(-1+mud)*(-1+mud) );
+		  hvar =  (-1./(n*(hd-1)*(mud-1)*(mud-1)*(mud-1)*(mud-1))) * ( 2*(1-2*h0)*(1-2*h0)*mu*mu*mu + (1 + 2*(-1+h0)*h0)*mu*(-1+mud)*(-1+mud) - (-1+h0)*h0*(-1+mud)*(-1+mud)*mud + (1-2*h0)*(1-2*h0)*mu*mu*(-2+3*mud) );
+		  //	  hvar = ( 2*(1-2*h0)*(1-2*h0)*mu*mu*mu + (1-2*h0)*(1-2*h0)*mu*mu*(mud-2) + (-1 + 2*(-1+h0)*h0)*mu*(-1+mud)*(-1+mud) + (-1+h0)*h0*(-1+mud)*(-1+mud)*mud ) / ( (-1+hd)*n*(-1+mud)*(-1+mud)*(-1+mud)*(-1+mud) );
 		  hdmean = hd + mud*(1-hd);
 		  hdvar = mud*(1-hd)/n;
 	      

@@ -9,7 +9,8 @@ unset key
 
 set cbrange [0:0.7]
 set cbtics 0.1
-set xtics 0.4
+set xtics 0.5
+set xrange [0:1.5]
 
 set palette defined (0 "#000000", 0.3 "#FF0000", 0.5 "#0000FF", 0.7 "#FFFFFF")
 

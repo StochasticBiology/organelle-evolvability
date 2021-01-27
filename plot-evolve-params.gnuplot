@@ -8,7 +8,8 @@ set size 0.28,1
 unset key
 
 set cbtics 0.05
-set xtics 0.4
+set xtics 0.5
+set xrange [0:1.5]
 
 set palette defined (0 "#000000", 0.15 "#FF0000", 0.25 "#0000FF", 0.3 "#FFFFFF")
 
@@ -25,6 +26,7 @@ set title "Bottleneck strength σ"
 set origin 0.35,0
 splot "env-switch-20-2-0.0000-100-0-0.txt" u 1:2:4 w pm3d
 
+set xrange [0:0.15]
 set title " "
 set xtics 0.1
 unset pm3d

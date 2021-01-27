@@ -28,7 +28,7 @@ splot "env-switch-20-2-0.0000-100-0-0.txt" u 1:2:4 w pm3d
 
 set xrange [0:0.15]
 set title " "
-set xtics 0.1
+set xtics 0.05
 unset pm3d
 set origin 0.68,0.
 set xlabel "Mutation rate μ"

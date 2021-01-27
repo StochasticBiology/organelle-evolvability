@@ -9,10 +9,10 @@ All numerical experiments are performed by **odna-sim.c**, which takes different
     * 1 = adaptation time
     * 2 = dynamic environments
 * [expt param]:
-    * (for adaptation experiments):
+    (for adaptation experiments):
     * 0 = fine-grained steps
     * 1 = coarse-grained steps through parameter space
-    * (for dynamic environments):
+    (for dynamic environments):
     * 0 = fine-grained steps
     * 1 = coarse-grained steps
     * 2, 3, 4 = fine-grained steps w/o mu evolution
